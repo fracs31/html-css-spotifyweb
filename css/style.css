@@ -9,8 +9,14 @@
     --green: #ADFF2F;
 }
 
+@font-face {
+    font-family: "Gotham";
+    src: url("../font/GothamBook.ttf");
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Gotham";
 }
