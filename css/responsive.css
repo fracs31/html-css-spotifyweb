@@ -2,15 +2,18 @@
 @media only screen and (max-width: 910px) {
     /* Timeline completa */
     .control-list__time--timeline__full {
-        width: 200px;
+        width: 150px;
     }
     /* Lista bottoni */
     .control-list__buttons--options {
-        gap: 25px;
         font-size: 18px;
     }
     /* Bottone Play */
     .control-list__buttons--options li:nth-child(3) {
         font-size: 32px;
+    }
+    /* Barra del volume */
+    .volume-bar {
+        width: 80px;
     }
 }

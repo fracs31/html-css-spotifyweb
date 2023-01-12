@@ -107,13 +107,14 @@ body {
 .control-list__buttons--options {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
     font-size: 24px;
 }
 
 /* Bottone Play */
 .control-list__buttons--options li:nth-child(3) {
     font-size: 38px;
+    margin: 0px 10px;
 }
 
 /* Tempo */
