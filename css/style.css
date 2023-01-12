@@ -60,4 +60,39 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--white);
+    border: 1px solid violet;
+}
+
+.player > * {
+    border: 1px solid white;
+}
+
+/* Canzone in riproduzione */
+.song-played {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Immagine della canzone riprodotta */
+.song-played__img img {
+    display: block;
+    width: 43px;
+}
+
+/* Nome canzone riprodotta */
+.song-played__name {
+    padding-right: 10px;
+}
+
+/* Titolo della canzone e le opzioni */
+.song-played__name--title,
+.song-played__options {
+    color: var(--light-grey);
+}
+
+/* Bottone preferiti del player */
+.song-played__options--favorite {
+    padding-right: 5px;
 }
