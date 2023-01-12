@@ -64,11 +64,6 @@ body {
     justify-content: space-between;
     align-items: center;
     color: var(--white);
-    border: 1px solid violet;
-}
-
-.player > * {
-    border: 1px solid white;
 }
 
 /* Canzone in riproduzione */
@@ -147,6 +142,29 @@ body {
 .control-list__time--timeline__spent {
     background-color: var(--white);
     width: 20%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* Volume */
+.volume-list {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Barra del volume */
+.volume-bar {
+    background-color: var(--light-grey);
+    width: 115px;
+    height: 5px;
+    border-radius: 4px;
+}
+
+/* Valore del volume */
+.volume-bar__value {
+    background-color: var(--white);
+    width: 30%;
     height: 100%;
     border-radius: 4px;
 }
