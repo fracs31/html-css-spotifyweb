@@ -24,11 +24,13 @@
 /* Body */
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Main */
 .main-content {
-    height: calc(100vh - 90px);
+    flex-grow: 1;
     display: flex;
 }
 
@@ -36,16 +38,23 @@ body {
 .navbar {
     background-color: var(--black);
     width: 200px;
+    flex-shrink: 0;
 }
 
 /* Contenuto */
 .content {
     background-color: var(--blue);
-    width: calc(100% - 200px);
+    flex-grow: 1;
 }
 
 /* Footer */
 .page-footer {
     height: 90px;
+    flex-shrink: 0;
     background-color: var(--grey);
+}
+
+/* Player */
+.player {
+    
 }
