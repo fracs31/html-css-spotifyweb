@@ -1,5 +1,5 @@
 /* Tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 910px) {
     /* Timeline completa */
     .control-list__time--timeline__full {
         width: 200px;
