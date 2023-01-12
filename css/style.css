@@ -120,6 +120,7 @@ body {
 .control-list__time {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 /* Tempo passato e lunghezza della canzone */
@@ -135,7 +136,6 @@ body {
     width: 425px;
     height: 5px;
     border-radius: 4px;
-    margin: 0px 25px;
 }
 
 /* Timeline con il tempo passato */
