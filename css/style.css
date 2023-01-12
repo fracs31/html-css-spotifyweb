@@ -21,6 +21,10 @@
     font-family: "Gotham";
 }
 
+ul, ol, menu {
+    list-style: none;
+}
+
 /* Body */
 body {
     height: 100vh;
@@ -49,7 +53,7 @@ body {
 
 /* Footer */
 .page-footer {
-    height: 90px;
+    height: 100px;
     flex-shrink: 0;
     background-color: var(--grey);
     padding: 25px 10px;
@@ -95,4 +99,55 @@ body {
 /* Bottone preferiti del player */
 .song-played__options--favorite {
     padding-right: 5px;
+}
+
+/* Lista dei controlli */
+.control-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Lista bottoni */
+.control-list__buttons--options {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 14px;
+}
+
+/* Bottone Play */
+.control-list__buttons--options li:nth-child(3) {
+    font-size: 28px;
+}
+
+/* Tempo */
+.control-list__time {
+    display: flex;
+    align-items: center;
+}
+
+/* Tempo passato e lunghezza della canzone */
+.control-list__time--spent,
+.control-list__time--length {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Timeline completa */
+.control-list__time--timeline__full {
+    background-color: var(--light-grey);
+    width: 425px;
+    height: 5px;
+    border-radius: 4px;
+    margin: 0px 25px;
+}
+
+/* Timeline con il tempo passato */
+.control-list__time--timeline__spent {
+    background-color: var(--white);
+    width: 20%;
+    height: 100%;
+    border-radius: 4px;
 }
