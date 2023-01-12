@@ -1,4 +1,13 @@
 /* Regole generali */
+:root {
+    --black: #000000;
+    --grey: #282828;
+    --light-grey: #7D7F84;
+    --blue: #141922;
+    --dark-blue: #080B12;
+    --white: #FFFFFF;
+}
+
 * {
     margin: 0px;
     padding: 0px;
