@@ -83,6 +83,40 @@ body {
     width: 30px;
 }
 
+/* Playlist */
+.playlist {
+    flex-grow: 1;
+    padding: 0px 20px;
+}
+
+/* Playlist titolo */
+.playlist-title__title {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+/* Opzione per aggiungere la playlist */
+.playlist-add__option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 20px;
+}
+
+/* Icona dell'opzione per aggiungere la playlist */
+.playlist-add__option--icon {
+    font-size: 28px;
+}
+
+/* Lista delle playlist */
+.playlist-add__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* Contenuto */
 .content {
     background-color: var(--blue);
