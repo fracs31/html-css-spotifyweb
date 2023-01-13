@@ -41,7 +41,7 @@ body {
 /* Barra laterale */
 .navbar {
     background-color: var(--black);
-    width: 200px;
+    width: 230px;
     flex-shrink: 0;
 }
 
