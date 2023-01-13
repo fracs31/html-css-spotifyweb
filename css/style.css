@@ -45,6 +45,16 @@ body {
     flex-shrink: 0;
 }
 
+/* Navbar logo */
+.navbar-logo {
+    padding: 18px 15px;
+}
+
+/* Immagine usata come logo nella Navbar */
+.navbar-logo img {
+    width: 135px;
+}
+
 /* Contenuto */
 .content {
     background-color: var(--blue);
