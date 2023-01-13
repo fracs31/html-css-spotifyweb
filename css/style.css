@@ -148,7 +148,8 @@ body {
 }
 
 /* Volume */
-.volume-list {
+.volume-list,
+.volume-list__button--volume {
     display: flex;
     gap: 15px;
     align-items: center;
