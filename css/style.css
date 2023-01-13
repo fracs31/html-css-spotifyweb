@@ -35,12 +35,14 @@ body {
 /* Main */
 .main-content {
     flex-grow: 1;
+    height: calc(100vh - 100px);
     display: flex;
 }
 
 /* Barra laterale */
 .navbar {
     flex-shrink: 0;
+    height: 100%;
     background-color: var(--black);
     color: var(--light-grey);
     width: 230px;
@@ -61,6 +63,8 @@ body {
 
 /* Elementi della lista delle opzioni della Navbar */
 .navbar-options__list--item {
+    font-size: 14px;
+    font-weight: bold;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -110,8 +114,15 @@ body {
     font-size: 28px;
 }
 
+/* Nome dell'opzione per aggiungere la playlist */
+.playlist-add__option--name__title {
+    font-size: 16px;
+}
+
 /* Lista delle playlist */
 .playlist-add__list {
+    font-size: 14px;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -162,6 +173,7 @@ body {
     background-color: var(--blue);
     color: var(--light-grey);
     flex-grow: 1;
+    height: 100%;
     overflow-y: auto;
 }
 
@@ -169,11 +181,13 @@ body {
 .page-footer {
     flex-shrink: 0;
     background-color: var(--grey);
-    padding: 25px 10px;
+    height: 100px;
+    padding: 0px 10px;
 }
 
 /* Player */
 .player {
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
