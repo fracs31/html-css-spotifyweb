@@ -40,19 +40,47 @@ body {
 
 /* Barra laterale */
 .navbar {
+    flex-shrink: 0px;
     background-color: var(--black);
+    color: var(--light-grey);
     width: 230px;
-    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
-/* Navbar logo */
+/* Logo della Navbar */
 .navbar-logo {
-    padding: 18px 15px;
+    padding: 20px;
 }
 
 /* Immagine usata come logo nella Navbar */
 .navbar-logo img {
     width: 135px;
+}
+
+/* Elementi della lista delle opzioni della Navbar */
+.navbar-options__list--item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+/* Prima opzione della lista della Navbar */
+.navbar-options__list .navbar-options__list--item:first-child {
+    border-left: 3px solid var(--green);
+    padding-left: 17px;
+}
+
+/* Nome della prima opzione della lista della Navbar */
+.navbar-options__list .navbar-options__list--item:first-child .navbar-options__list--item__name {
+    color: var(--white);
+}
+
+/* Logo delle opzioni presenti nella Navbar */
+.navbar-options__list--item__icon {
+    width: 30px;
 }
 
 /* Contenuto */
