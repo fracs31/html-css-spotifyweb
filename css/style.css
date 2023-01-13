@@ -160,7 +160,9 @@ body {
 /* Contenuto */
 .content {
     background-color: var(--blue);
+    color: var(--light-grey);
     flex-grow: 1;
+    overflow-y: auto;
 }
 
 /* Footer */
