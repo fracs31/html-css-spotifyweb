@@ -117,6 +117,24 @@ body {
     gap: 10px;
 }
 
+/* Download dell'app */
+.download-app {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Icona per scaricare l'app */
+.download-app__icon img {
+    width: 20px;
+}
+
+/* Titolo dell'opzione per scarica l'app */
+.download-app__option--title {
+    font-size: 12px;
+}
+
 /* Contenuto */
 .content {
     background-color: var(--blue);
