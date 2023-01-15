@@ -45,7 +45,7 @@ body {
 }
 
 /* Barra laterale */
-.navbar {
+.sidebar {
     flex-shrink: 0;
     height: 100%;
     background-color: var(--black);
@@ -56,25 +56,25 @@ body {
     gap: 25px;
 }
 
-/* Logo della Navbar */
-.navbar-logo {
+/* Logo della sidebar */
+.sidebar-logo {
     padding: 20px;
 }
 
-/* Immagine grande usata come logo nella Navbar */
-.navbar-logo__big {
+/* Immagine grande usata come logo nella sidebar */
+.sidebar-logo__big {
     width: 135px;
 }
 
-/* Immagine piccola usata come logo nella Navbar */
-.navbar-logo__small {
+/* Immagine piccola usata come logo nella sidebar */
+.sidebar-logo__small {
     width: 30px;
     padding-top: 10px;
     display: none;
 }
 
-/* Elementi della lista delle opzioni della Navbar */
-.navbar-options__list--item {
+/* Elementi della lista delle opzioni della sidebar */
+.sidebar-options__list--item {
     font-size: 14px;
     font-weight: bold;
     display: flex;
@@ -83,15 +83,15 @@ body {
     padding-left: 20px;
 }
 
-/* Opzione della Navbar che si ha attiva al momento */
+/* Opzione della sidebar che si ha attiva al momento */
 .active {
     border-left: 3px solid var(--green);
     padding-left: 17px;
     color: var(--white);
 }
 
-/* Logo delle opzioni presenti nella Navbar */
-.navbar-options__list--item__icon {
+/* Logo delle opzioni presenti nella sidebar */
+.sidebar-options__list--item__icon {
     width: 30px;
 }
 
@@ -188,7 +188,7 @@ body {
 /* Testa del contenuto */
 .content-header {
     background-color: var(--dark-blue);
-    padding: 30px 0px;
+    padding: 30px 5px;
     text-align: right;
 }
 

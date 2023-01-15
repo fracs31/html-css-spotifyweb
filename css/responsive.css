@@ -21,48 +21,48 @@
 /* Smartphone */
 @media only screen and (max-width: 575px) {
     /* Barra laterale */
-    .navbar {
+    .sidebar {
         width: 50px;
         align-items: center;
         gap: 15px;
     }
     /* 
-        Immagine grande usata come logo nella Navbar
-        Nome degli elementi della lista delle opzioni della Navbar
+        Immagine grande usata come logo nella sidebar
+        Nome degli elementi della lista delle opzioni della sidebar
         Playlist
         Titolo dell'opzione per scarica l'app
         Nome utente
     */
-    .navbar-logo__big,
-    .navbar-options__list--item__name,
+    .sidebar-logo__big,
+    .sidebar-options__list--item__name,
     .playlist,
     .download-app__option,
     .profile__name {
         display: none;
     }
-    /* Immagine piccola usata come logo nella Navbar */
-    .navbar-logo__small {
+    /* Immagine piccola usata come logo nella sidebar */
+    .sidebar-logo__small {
         display: block;
     }
-    /* Opzione della Navbar che si ha attiva al momento */
+    /* Opzione della sidebar che si ha attiva al momento */
     .active {
         border: none;
         padding: 0px;
     }
     /*  
-        Logo della Navbar
-        Elementi della lista delle opzioni della Navbar
+        Logo della sidebar
+        Elementi della lista delle opzioni della sidebar
         Download dell'app
         Profilo
     */
-    .navbar-logo,
-    .navbar-options__list--item,
+    .sidebar-logo,
+    .sidebar-options__list--item,
     .download-app,
     .profile {
         padding: 0px;
     }
-    /* Opzioni della Navbar */
-    .navbar-options {
+    /* Opzioni della sidebar */
+    .sidebar-options {
         flex-grow: 1;
     }
 }
