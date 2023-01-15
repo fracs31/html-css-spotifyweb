@@ -56,9 +56,16 @@ body {
     padding: 20px;
 }
 
-/* Immagine usata come logo nella Navbar */
-.navbar-logo img {
+/* Immagine grande usata come logo nella Navbar */
+.navbar-logo__big {
     width: 135px;
+}
+
+/* Immagine piccola usata come logo nella Navbar */
+.navbar-logo__small {
+    width: 30px;
+    padding-top: 10px;
+    display: none;
 }
 
 /* Elementi della lista delle opzioni della Navbar */
@@ -71,14 +78,10 @@ body {
     padding-left: 20px;
 }
 
-/* Prima opzione della lista della Navbar */
-.navbar-options__list .navbar-options__list--item:first-child {
+/* Opzione della Navbar che si ha attiva al momento */
+.active {
     border-left: 3px solid var(--green);
     padding-left: 17px;
-}
-
-/* Nome della prima opzione della lista della Navbar */
-.navbar-options__list .navbar-options__list--item:first-child .navbar-options__list--item__name {
     color: var(--white);
 }
 

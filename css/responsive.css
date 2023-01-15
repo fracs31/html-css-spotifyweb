@@ -17,3 +17,52 @@
         width: 80px;
     }
 }
+
+/* Smartphone */
+@media only screen and (max-width: 575px) {
+    /* Barra laterale */
+    .navbar {
+        width: 50px;
+        align-items: center;
+        gap: 15px;
+    }
+    /* 
+        Immagine grande usata come logo nella Navbar
+        Nome degli elementi della lista delle opzioni della Navbar
+        Playlist
+        Titolo dell'opzione per scarica l'app
+        Nome utente
+    */
+    .navbar-logo__big,
+    .navbar-options__list--item__name,
+    .playlist,
+    .download-app__option,
+    .profile__name {
+        display: none;
+    }
+    /* Immagine piccola usata come logo nella Navbar */
+    .navbar-logo__small {
+        display: block;
+    }
+    /* Opzione della Navbar che si ha attiva al momento */
+    .active {
+        border: none;
+        padding: 0px;
+    }
+    /*  
+        Logo della Navbar
+        Elementi della lista delle opzioni della Navbar
+        Download dell'app
+        Profilo
+    */
+    .navbar-logo,
+    .navbar-options__list--item,
+    .download-app,
+    .profile {
+        padding: 0px;
+    }
+    /* Opzioni della Navbar */
+    .navbar-options {
+        flex-grow: 1;
+    }
+}
