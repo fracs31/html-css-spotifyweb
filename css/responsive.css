@@ -45,7 +45,7 @@
         display: block;
     }
     /* Opzione della sidebar che si ha attiva al momento */
-    .active {
+    .active-sidebar {
         border: none;
         padding: 0px;
     }

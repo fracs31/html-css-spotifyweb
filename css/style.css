@@ -84,7 +84,7 @@ body {
 }
 
 /* Opzione della sidebar che si ha attiva al momento */
-.active {
+.active-sidebar {
     border-left: 3px solid var(--green);
     padding-left: 17px;
     color: var(--white);
