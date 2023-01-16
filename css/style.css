@@ -246,6 +246,8 @@ body {
 .song-played__img img {
     display: block;
     width: 43px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Nome canzone riprodotta */
