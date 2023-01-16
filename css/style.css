@@ -412,6 +412,20 @@ body {
     width: 20%;
     height: 100%;
     border-radius: 4px;
+    position: relative;
+}
+
+/* Pallino progresso */
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: var(--white);
+    border-radius: 999px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
 }
 
 /* Volume */
@@ -436,6 +450,7 @@ body {
     width: 30%;
     height: 100%;
     border-radius: 4px;
+    position: relative;
 }
 
 /* Bottone per effettuare l'upgrade in hover */
@@ -443,7 +458,15 @@ body {
     font-size: 14px;
 }
 
-/* Elementi della barra di navigazione */
+/* 
+    Elementi della barra di navigazione in hover
+    Nomi delle opzioni della sidebar in hover
+    Opzione per aggiungere la playlist in hover
+    Elementi della lista playlist in hover
+    Titolo dell'opzione per il download in hover
+    Opzione preferiti del player in hover
+    Opzione cartella del player in hover
+*/
 .navbar__item:hover,
 .sidebar-options__list--item__name:hover,
 .playlist-add__option:hover,
@@ -455,8 +478,33 @@ body {
     cursor: pointer;
 }
 
+/* Nome del brano in hover */
 .song-played__name--title:hover {
     text-decoration: underline;
     color: var(--white);
     cursor: pointer;
+}
+
+/* Bottone Play in hover */
+.control-list__buttons--options li:nth-child(3):hover {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* 
+    Timeline con il tempo passato in hover 
+    Valore del volume in hover
+*/
+.control-list__time--timeline:hover .control-list__time--timeline__spent,
+.volume-bar:hover .volume-bar__value {
+    background-color: var(--green);
+    cursor: pointer;
+}
+
+/* 
+    Comparsa del pallino in hover
+*/
+.control-list__time--timeline:hover .dot,
+.volume-bar:hover .dot{
+    opacity: 1;
 }
