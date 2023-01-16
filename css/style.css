@@ -203,6 +203,7 @@ body {
     padding: 15px 20px;
 }
 
+
 /* Barra di navigazione */
 .navbar {
     display: flex;
@@ -435,4 +436,27 @@ body {
     width: 30%;
     height: 100%;
     border-radius: 4px;
+}
+
+/* Bottone per effettuare l'upgrade in hover */
+.upgrade-button:hover {
+    font-size: 14px;
+}
+
+/* Elementi della barra di navigazione */
+.navbar__item:hover,
+.sidebar-options__list--item__name:hover,
+.playlist-add__option:hover,
+.playlist-add__list--item:hover,
+.download-app__option--title:hover,
+.song-played__options--favorite:hover,
+.song-played__options--folder:hover {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.song-played__name--title:hover {
+    text-decoration: underline;
+    color: var(--white);
+    cursor: pointer;
 }
