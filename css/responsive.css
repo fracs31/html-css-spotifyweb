@@ -16,6 +16,10 @@
     .volume-bar {
         width: 80px;
     }
+    /* Colonna */
+    .col {
+        flex-basis: 50%;
+    }
 }
 
 /* Smartphone */
