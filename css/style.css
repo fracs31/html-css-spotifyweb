@@ -192,21 +192,6 @@ body {
     text-align: right;
 }
 
-/* Barra di navigazione */
-.navbar {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 0px;
-}
-
-/* Elementi della barra di navigazione */
-.navbar__item {
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 /* Bottone per effettuare l'upgrade */
 .upgrade-button {
     color: var(--white);
@@ -216,6 +201,30 @@ body {
     font-size: 12px;
     font-weight: bold;
     padding: 15px 20px;
+}
+
+/* Barra di navigazione */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Elementi della barra di navigazione */
+.navbar__item {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section {
+    padding: 10px 20px;
+}
+
+.section__title--main {
+    color: var(--white);
 }
 
 /* Footer */
