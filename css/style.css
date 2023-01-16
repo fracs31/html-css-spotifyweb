@@ -219,14 +219,9 @@ body {
     font-weight: bold;
 }
 
-/* Sezioni */
-.section {
-    padding: 10px 20px;
-}
-
 /* Titolo della sezione */
 .section__title {
-    padding-bottom: 20px;
+    padding: 15px;
 }
 
 /* Titolo principale delle sezioni */
