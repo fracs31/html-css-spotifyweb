@@ -224,23 +224,31 @@ body {
     padding: 10px 20px;
 }
 
+/* Titolo della sezione */
 .section__title {
     padding-bottom: 20px;
 }
 
-/* Titolo delle sezioni */
+/* Titolo principale delle sezioni */
 .section__title--main {
     color: var(--white);
+}
+
+/* Riga */
+.row {
+    display: flex;
+    gap: 15px;
 }
 
 /* Carta */
 .card {
     width: 180px;
+    height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border: 1px solid red;
+    border: 1px solid aqua;
 }
 
 /* Immagine della carta */
