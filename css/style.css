@@ -234,6 +234,12 @@ body {
     color: var(--white);
 }
 
+/* Sottotitolo delle sezioni */
+.section__title--subtitle {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
 /* Riga */
 .row {
     display: flex;
