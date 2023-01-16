@@ -236,6 +236,10 @@ body {
 /* Carta */
 .card {
     width: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     border: 1px solid red;
 }
 
@@ -276,6 +280,11 @@ body {
 /* Immagine della carta secondaria in hover */
 .card__img:hover .card__img--hover {
     display: block;
+}
+
+/* Titolo della carta */
+.card__title--name {
+    color: var(--white);
 }
 
 /* Footer */
