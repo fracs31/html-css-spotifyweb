@@ -219,6 +219,11 @@ body {
     font-weight: bold;
 }
 
+/* Sezioni */
+.section {
+    padding: 10px 0px;
+}
+
 /* Titolo della sezione */
 .section__title {
     padding: 15px;
@@ -269,6 +274,11 @@ body {
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+/* Immagine della carta non in hover della sezione Most Popular Artists*/
+.most-popular-artists .card__img--not-hover {
+    border-radius: 999px;
 }
 
 /* Immagine della carta che compare in hover */
