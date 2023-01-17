@@ -48,10 +48,9 @@
     .sidebar-logo__small {
         display: block;
     }
-    /* Opzione della sidebar che si ha attiva al momento */
-    .active-sidebar {
-        border: none;
-        padding: 0px;
+    /* Bordo sinistro dell'pzione della sidebar che si ha attiva al momento  */
+    .active-sidebar::before {
+        display: none;
     }
     /*  
         Logo della sidebar

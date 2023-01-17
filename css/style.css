@@ -85,9 +85,20 @@ body {
 
 /* Opzione della sidebar che si ha attiva al momento */
 .active-sidebar {
-    border-left: 3px solid var(--green);
-    padding-left: 17px;
     color: var(--white);
+    position: relative;
+}
+
+/* Bordo sinistro dell'pzione della sidebar che si ha attiva al momento  */
+.active-sidebar::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 3px;
+    background-color: var(--green);
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 /* Logo delle opzioni presenti nella sidebar */
