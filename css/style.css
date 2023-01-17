@@ -171,6 +171,18 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+    position: relative;
+}
+
+/* Linea tra il Profilo e il Download dell'app */
+.profile::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 190px;
+    background-color: var(--light-grey);
+    position: absolute;
+    top: -12px;
 }
 
 /* Immagine profilo */

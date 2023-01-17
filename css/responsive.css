@@ -52,6 +52,10 @@
     .active-sidebar::before {
         display: none;
     }
+    /* Linea tra il Profilo e il Download dell'app */
+    .profile::before {
+        display: none;
+    }
     /*  
         Logo della sidebar
         Elementi della lista delle opzioni della sidebar
