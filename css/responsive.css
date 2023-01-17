@@ -2,7 +2,7 @@
 @media only screen and (max-width: 910px) {
     /* Timeline completa */
     .control-list__time--timeline__full {
-        width: 150px;
+        width: 250px;
     }
     /* Lista bottoni */
     .control-list__buttons--options {
@@ -16,6 +16,14 @@
     .volume-bar {
         width: 80px;
     }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+    /* Timeline completa */
+    .control-list__time--timeline__full {
+        width: 150px;
+    } 
     /* Colonna */
     .col {
         flex-basis: 50%;
