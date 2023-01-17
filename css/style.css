@@ -243,6 +243,24 @@ body {
     font-weight: bold;
 }
 
+/* Elemento attivo della barra di navigazione */
+.active-navbar {
+    position: relative;
+}
+
+/* Linea sotto l'elemento attivo della barra di navigazione */
+.active-navbar::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 30px;
+    background-color: var(--green);
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* Sezioni */
 .section {
     padding: 10px 0px;
