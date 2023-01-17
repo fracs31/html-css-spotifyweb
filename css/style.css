@@ -439,7 +439,7 @@ body {
     font-size: 12px;
 }
 
-/* Barra del progresso */
+/* Barra di avanzamento */
 .progress-bar {
     background-color: var(--light-grey);
     height: 5px;
