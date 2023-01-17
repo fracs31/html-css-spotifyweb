@@ -439,16 +439,25 @@ body {
     font-size: 12px;
 }
 
-/* Timeline completa */
-.control-list__time--timeline__full {
+/* Barra del progresso */
+.progress-bar {
     background-color: var(--light-grey);
-    width: 425px;
     height: 5px;
     border-radius: 4px;
 }
 
-/* Timeline con il tempo passato */
-.control-list__time--timeline__spent {
+/* Grandezza della barra del progresso per il tempo */
+.control-list__time .progress-bar {
+    width: 425px;
+}
+
+/* Grandezza della barra del progresso per il volume */
+.volume-list__button--volume .progress-bar {
+    width: 115px;
+}
+
+/* Valore della barra del progresso */
+.progress-bar__value {
     background-color: var(--white);
     width: 20%;
     height: 100%;
@@ -475,23 +484,6 @@ body {
     display: flex;
     gap: 15px;
     align-items: center;
-}
-
-/* Barra del volume */
-.volume-bar {
-    background-color: var(--light-grey);
-    width: 115px;
-    height: 5px;
-    border-radius: 4px;
-}
-
-/* Valore del volume */
-.volume-bar__value {
-    background-color: var(--white);
-    width: 30%;
-    height: 100%;
-    border-radius: 4px;
-    position: relative;
 }
 
 /* Bottone per effettuare l'upgrade in hover */
@@ -532,20 +524,13 @@ body {
     cursor: pointer;
 }
 
-/* 
-    Timeline con il tempo passato in hover 
-    Valore del volume in hover
-*/
-.control-list__time--timeline:hover .control-list__time--timeline__spent,
-.volume-bar:hover .volume-bar__value {
+/* Valore progress bar in hover*/
+.progress-bar:hover .progress-bar__value {
     background-color: var(--green);
     cursor: pointer;
 }
 
-/* 
-    Comparsa del pallino in hover
-*/
-.control-list__time--timeline:hover .dot,
-.volume-bar:hover .dot{
+/* Comparsa del pallino in hover */
+.progress-bar:hover .dot {
     opacity: 1;
 }

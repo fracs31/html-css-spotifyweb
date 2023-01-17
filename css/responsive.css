@@ -1,7 +1,7 @@
 /* Tablet */
 @media only screen and (max-width: 992px) {
     /* Timeline completa */
-    .control-list__time--timeline__full {
+    .control-list__time .progress-bar {
         width: 250px;
     }
     /* Lista bottoni */
@@ -13,7 +13,7 @@
         font-size: 32px;
     }
     /* Barra del volume */
-    .volume-bar {
+    .volume-list__button--volume .progress-bar {
         width: 80px;
     }
 }
@@ -21,7 +21,7 @@
 /* Tablet */
 @media only screen and (max-width: 768px){
     /* Timeline completa */
-    .control-list__time--timeline__full {
+    .control-list__time .progress-bar {
         width: 150px;
     } 
     /* Colonna */
